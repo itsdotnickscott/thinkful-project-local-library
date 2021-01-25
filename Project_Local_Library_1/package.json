@@ -1,0 +1,21 @@
+{
+  "name": "project-local-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "live-server public/",
+    "test": "mocha test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "live-server": "^1.2.1",
+    "mocha": "^8.1.1"
+  }
+}
